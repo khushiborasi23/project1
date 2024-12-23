@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Campus Resource Booking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+<div style="display: flex;flex-direction: row;justify-content: space-around;">
+
+    <div class="div2">
+        <h1>Registration</h1>
+        <h6 style="font-size: 70px;">"Register to have the access of your campus resources at your fingertips."</h6>
+     </div>
+ 
+     <div class="container"> 
+     
+         <form action="/submit_registration" method="post">
+             <div class="divf"style="color: gray"><label for="name">Name:</label>
+             <input style="height: 20px;font-size: 5px;width:200px;color: gray;" type="text" id="name" name="name" placeholder="Enter your Username"></div>
+ 
+             <div class="divf" style="color: gray"><label for="email">Email:</label>
+                 <input style="height: 20px;font-size: 20px;color: gray" type="email" id="email" name="email" plceholder="Enter your Email"></div>
+ 
+             <div class="divf" style="color: gray"><area for="role">Role:</label>
+                 <select style="height: 20px;font-size: 15px ;width: 100px;color: gray"id="role" name="role" required>
+                 <option style="height: 20px;font-size: 15px;width: 100px;color: gray"value="student">Student</option>
+                 <option style="height: 20px;font-size: 15px;width: 100px;color: gray"value="staff">Staff</option>
+                 <option style="height: 20px;font-size: 15px;width: 100px;color: gray"value="admin">Admin</option>
+             </select></div>
+ 
+             <div class="divf" style="color: gray"><label for="password">Password:</label>
+                 <input style="height: 20px;font-size: 15px" type="password" id="password" name="password" required></div>
+            <div class="divf"><center><button style="height:35px;width:90px;background-color: #385a7d;color: aliceblue"type="submit">Register</button></center></div> 
+         </form>
+         
+         
+     </div>
+</div>
+   
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+.container{
+ align-items:center;
+ background-color:aliceblue ;
+ padding:3px;
+ width:400px;
+ 
+ margin-right: align;
+ margin-top:200px;
+ height: 500px;
+ font-size: 20px;
+
+ display:flex;
+  justify-content: center; 
+  }
+
+.divf{
+  align-items: center;
+  margin-bottom: 10%;
+  color: blueviolet;
+}
+  
+.body{
+/*background:url('img1.jpg');*/
+background-color: #385a7d;
+visibility:inherit;
+background-size: cover;
+}
+
+.div2{
+  display: inline-block;
+  margin-top:2%;
+
+  padding: 0px;
+  color: aliceblue;
+  font-size: 90px;
+  height: 650px;
+  
+  width:950px;
+  
+}
